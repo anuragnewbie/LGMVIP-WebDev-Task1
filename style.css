@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1.175rem;
+    height: 100%;
+}
+
+body { 
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	background-image: url("https://epcoachingservices.com/wp-content/uploads/2017/07/cropped-nature-wallpaper-desktop-free-downloads1.jpg");
+	background-size: cover;
+	background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bxslider {
+	box-shadow: 3px 3px 15px #000;
+}
+
+#content {
+	margin: 20% 0 15% 0%;
+}
+
+.container {
+	text-align: center !important;
+}
+
+.card{
+	opacity: 0.75;
+	background-color: #000;
+	transition: transform 4s;
+	box-shadow: 3px 3px 15px #000;
+}
+
+.card-body, h2, p{
+	color: #fff;
+}
+
+.footer-line {
+	text-align: center;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	opacity: 0.5;
+	letter-spacing: 3px;
+}
+
+.footer-section{
+	list-style: none !important;
+	text-align: center;
+}
+
+#gallery, #save {
+	margin: 12% 0 15% 0;
+}
+
+h2{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 1.72rem;
+	letter-spacing: 3px;
+}
+
+h5{
+	text-transform: capitalize;
+}
+
+.headline {
+	line-height: 75px;
+}
+
+.navbar-brand, .nav-item .nav-link {
+	font-size: 1.280em;
+}
+
+p{
+	text-align: justify
+}
+
+/* media style rules */
+@media screen and (max-width:575px){
+	.card{
+		margin: 10% 12%;
+	}
+	h2, h5{
+		font-size: 1rem;
+	}
+}
+
+@media screen and (min-width: 576px) and (max-width:767px){
+	.card{
+		min-width: 65vw !important;
+		margin: 10%;
+	}
+	h2{
+		font-size: 1.25rem;
+	}
+}
+
+@media screen and (max-width: 767px){
+	#content, #gallery {
+		margin: 40% 0 15% 0%;
+	}
+	h4 {
+		font-size: 1rem;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.card:hover{
+		transform: scale(1.07);
+	}
+	html {
+		font-size: 0.87rem;
+	}
+	.sub-head{
+		margin-bottom: 25px;
+	}
+}
+
+@media screen and (min-width: 768px){
+	#content {
+		font-size: 1.25rem;
+	}
+	.nav-item {
+		margin-right: 1.5rem;
+	}
+	.card:hover{
+		transform: scale(1.07);
+	}
+}
+
+@media screen and (min-width: 992px) {
+	html {
+		font-size: 1rem;
+	}
+	.card{
+		margin: 3% 10%;
+	}
+}
